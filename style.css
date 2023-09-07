@@ -1,0 +1,77 @@
+*{
+    background-color: #F4189C;
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: boder-box;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+}
+body{
+    color: aliceblue;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    display: flex
+    
+}
+.botao{
+    height: 40px;
+    background-color: rgb(252, 252, 252);
+    color:rgb(255, 0, 85);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 12px 0px;
+}
+.caracteres{
+    margin: 12px 0px;
+    font-size: 20px;
+}
+.tamanho{
+
+    margin-top: 8px;
+    outline: none;
+    height: 20px;
+    width: 100%;
+    -webkit-appearance: none;
+    background: #fffeff;
+    border-radius: 10px;
+    color: rgb(255, 0, 85);
+}
+.senha_gerada{
+    height: 30px;
+    background-color:rgb(252, 252, 252);
+    color:rgb(255, 0, 85);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    transition: transform 0.4s
+}
+.checkbox{
+    margin: 2px 0px;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.Logo{
+    max-width: 700px;
+    margin-bottom: 24px;
+}
+.copy{
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background-color:rgb(252, 252, 252);
+    color: rgb(255, 0, 85);
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: bold;
+}

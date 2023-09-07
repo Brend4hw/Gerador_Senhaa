@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Gerador de senha 🥨 </title>
+</head>
+<body>
+    <div class="password-generator">
+    <img class="Logo" src="./gerador_senhaa/Gerador senha.png" alt="logo">
+    <div>
+    <div class="caracteres">
+    <label for="length">Tamanho da senha:</label>
+    <span id="lengthValue">15</span>
+    <input class="tamanho" type="range" id="length" min="5" max="25" value="15">
+    </div>
+
+    <div class="checkbox">
+    <label for="uppercase"> ↪ Letras maiúsculas 🦋: </label>
+    <input type="checkbox" id="uppercase" checked>
+    <label for="lowercase"> ↪ Letras minúsculas 😘: </label>
+    <input type="checkbox" id="lowercase" checked>
+    <label for="numbers"> ↪ Números 🐥: </label>
+    <input type="checkbox" id="numbers" checked>
+    <label for="symbols"> ↪ Símbolos 💋: </label>
+    <input type="checkbox" id="symbols">
+    </div>
+
+    </div>
+    <button class="botao"  id= "generate" onclick="generatePassword()"> Gerar senha 💁‍♀️</button>
+    <input class="senha_gerada"  type="text" id="password" readonly>
+    <button class="copy" id="copy">CLIQUE AQUI PARA COPIAR A SENHA 🤳 </button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
